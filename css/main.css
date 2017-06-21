@@ -235,16 +235,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navigation .navbar-nav.navbar-right li a {
-	color: #43484E;
 	font-family: 'Roboto',sans-serif;
-	font-size: 14px;
 	padding: 0;
 	text-transform: uppercase;
 	-webkit-transition: all .9s ease 0s;
 	-moz-transition: all .9s ease 0s;
 	-o-transition: all .9s ease 0s;
 	transition: all .9s ease 0s;
-	padding: 6px 15px;
+	padding: 10px;
 }
 
 #navigation .navbar-inverse .navbar-nav  .active,  

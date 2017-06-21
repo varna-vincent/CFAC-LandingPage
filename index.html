@@ -25,19 +25,17 @@
 		<div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
 			<div> 
 				<div class="navbar-header"> 
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#socialicons"> 
 						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
 					</button> 
-					<router-link to="/" class="navbar-brand" exact><h1><img class="header-logo" src="images/logo3.png" alt="logo"></h1></router-link> 
+					<a href="#" class="navbar-brand"><h1><img class="header-logo" src="images/logo3.png" alt="logo"></h1></a> 
 				</div> 
-				<div class="collapse navbar-collapse"> 
-					<div class="nav navbar-nav navbar-right">
-						<div class="social-icons">
-							<a href="https://www.facebook.com/groups/collaboratingforacause" target="_blank"><i class="fa fa-facebook"></i></a>
-							<a href="http://icanaz.org/collaboratingforacause" target="_blank"><i class="fa fa-star-half-o"></i></a>
-							<a href="https://www.linkedin.com/groups/6661132" target="_blank"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
+				<div class="collapse navbar-collapse" id="socialicons"> 
+					<ul class="nav navbar-nav navbar-right social-icons">
+						<li><a href="https://www.facebook.com/groups/collaboratingforacause" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="http://icanaz.org/collaboratingforacause" target="_blank"><i class="fa fa-star-half-o"></i></a></li>
+						<li><a href="https://www.linkedin.com/groups/6661132" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
 				</div>
 			</div> 
 		</div><!--/navbar--> 
@@ -58,6 +56,7 @@
 			</div><!--/.carousel-inner-->
 		</div> 
 	</section><!--/#home-->
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
